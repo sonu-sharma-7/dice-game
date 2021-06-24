@@ -1,0 +1,93 @@
+body{
+    background-color: greenyellow;
+    text-align: center;
+    margin:0;
+    
+}
+
+img{
+  
+    width:8%;
+    
+    padding-right:200px;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+
+}
+div{
+   
+    padding-top:30px;
+}
+h1{ 
+    font-size: 3rem;
+    font-family: cursive;
+    display:inline-block;
+    margin:0 auto 0 auto;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+.dice1{
+    position:absolute;
+    top:100px;
+    border-radius: 10%;
+    right:125px;
+    width:200px;
+    height:200px;
+    background-color: rgb(250, 242, 242);
+    padding-top:0;
+}
+.dice2{
+    position:absolute;
+    border-radius: 10%;
+    top:100px;
+    left:125px;
+    width:200px;
+    height:200px;
+    background-color: rgb(250, 242, 242);
+    padding-top:0;
+}
+.dice{
+    border-radius: 5%;
+    top : 50px;
+    width:50%;
+    height:450px;
+    position:relative;
+    background-color:rgb(223, 230, 223);
+    margin:0 auto 0 auto;
+    padding-top:0;
+}
+.players{
+    width:509.6px;
+    position: absolute;
+    left:125px;
+    bottom:10px;
+    
+}
+h3{
+    font-size:2rem;
+    display: inline-block;
+   
+    color:rgb(1, 46, 1);
+    
+    
+}
+.player1{
+    margin-right: 200px;
+}
+.dice_img{
+    width:100%;
+    
+}
+button {
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+    background-color: black; 
+    border-radius:10%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+
